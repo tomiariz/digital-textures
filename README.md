@@ -1,2 +1,2 @@
 # digital-textures
-Digital Textures Website
+Digital Textures Website, for emerging djs
