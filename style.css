@@ -213,6 +213,14 @@ ul.unstyled {
     align-items: center;
     box-sizing: border-box;
 }
+.main h1{
+    font-family: var(--ibm), 'monospace';
+    color: red;
+}
+
+.main p{
+    font-family: var(--ibm), 'monospace';
+}
 video{
     z-index: -1;
     position: fixed;
