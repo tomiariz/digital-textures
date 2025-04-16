@@ -38,8 +38,7 @@ header {
 	--txt-color: white;
 	--accnt-color: gray;
 	--bg-color: black;
-    --poppins: "Poppins", sans-serif;
-    --lora: "Lora", serif;
+    --ibm: "IBM Plex Mono", monospace;
 }
 
 
@@ -144,7 +143,7 @@ ul.unstyled {
 
 .menu a {
 	margin: 5px;
-    font-family: var(--poppins);
+    font-family: var(--ibm);
 	color: var(--bg-color);
 	transition: color 0.3s ease, text-shadow 0.3s ease;
 	text-decoration: none;
