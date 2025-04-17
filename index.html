@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Textures - ABOUT</title>
+
+    <!-- FONTS ---------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- CSS ------------------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header id="header">
+        
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/LOGO-GIF.gif" alt="3D-spinning-logo">
+            </a>
+        </div>
+
+        <div class="header-side-content">
+            <button class="button" id="menuButton">
+                +
+            </button>
+        </div>
+    </header>
+
+    <!-- SIDE-MENU ------------------------->
+    <nav class="menu" id="menu-container">
+        <ul class="unstyled">
+            <li><a href="index.html">
+                HOME</a></li>
+            <li><a href="">
+                ABOUT</a></li>
+            <li><a href="">
+                SET SUBMISSION</a></li>
+            <li><a href="">
+                SET GALLERY</a></li>
+        </ul>
+    </nav>
+
+    <!-- BACKGROUND VIDEO ---------------------------->
+    <div class="background-vid">
+        <video autoplay muted loop preload="auto">
+            <source src="./vids/waves-demo0001-0120.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- HERO SECTION -------------------------------->
+
+    <main>
+        <p>A curated space where underground atmospheres and evolving soundscapes converge</p>
+    </main>
+
+    <!-- LATEST SETS -------------------------------->
+
+    <section id="latest-sets-container">
+        <h1>Latest Sets</h1>
+
+        <div id="container">
+            <div class="buttons">
+                <button id="prev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg></button>
+            
+            </div>
+            <div class="slider-container-about">
+                <div class="slider-about" id="slider" data-slider-id="1">
+
+                    <div class="slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/2c39An81gk8?si=vXppWT8n6sRJQkh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+                    <div class="slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/pRUsaJZYcDE?si=bE1jAVfhtw7WL0iL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+                    <div class="slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/ylEw2pkC1Xo?si=Ffwd-GnCI1wXPJSF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+                <!-- Agrega más imágenes según necesites -->
+            </div>
+            <div class="dots" id="dots" data-dots-id="1"></div>
+
+            
+
+        </div>
+        <div class="buttons">
+            <button id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+            </button>
+        </div>
+    </section>
+
+<!-- "INSERT FOOTER" ------------------------------->
+
+
+
+
+    <!-- SCRIPTS ---------------------------------->
+    <script src="script.js"></script>
+    <script src="slideshow.js"></script>
+</body>
+</html>

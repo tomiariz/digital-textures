@@ -18,6 +18,7 @@
 }
 .main p{
     font-family: var(--ibm), 'monospace';
+    font-weight: 600;
     font-size: 18px;
     text-indent: 20px;
     padding: 20px 20px 0px 20px;
