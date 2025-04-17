@@ -1,0 +1,109 @@
+.main{
+    width: 100vw;
+    padding: 80px 0px 20px 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+.main h1{
+    font-family: var(--ibm), 'monospace';
+    font-size: 40px;
+    color: red;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+/* FILTERS ---------------------*/
+
+/* Wrapper para posicionar correctamente el menú */
+.filter-bar-wrapper {
+    position: relative;
+}
+
+/* Barra principal de filtros */
+.filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Ícono de filtro */
+.filter-icon img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Contenedor horizontal desplazable */
+.subcategories-container {
+    overflow-x: auto;
+    flex: 1;
+    -ms-overflow-style: none;  /* IE y Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+/* Ocultar scroll en WebKit */
+.subcategories-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Contenedor interno de chips */
+.subcategories {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 4px;
+}
+
+/* Estilo de chips (subcategorías) */
+.chip {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+.chip:hover {
+    background-color: #ddd;
+}
+
+/* Menú de categorías (visible al hacer clic en el icono de filtro) */
+.category-menu {
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+
+/* Ocultar menú */
+.hidden {
+    display: none;
+}
+
+/* Botones de categorías */
+.category-btn {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.category-btn:hover {
+    background-color: #ddd;
+}
