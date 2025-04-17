@@ -174,7 +174,7 @@ ul.unstyled {
 	transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/* Añade retraso a cada elemento usando nth-child */
+/* Retraso a cada elemento usando nth-child */
 .menu li:nth-child(1) {
 	transition-delay: 0.001s;
 }
@@ -187,40 +187,12 @@ ul.unstyled {
 .menu li:nth-child(4) {
 	transition-delay: 0.004s;
 }
-.menu li:nth-child(5) {
-	transition-delay: 0.005s;
-}
-.menu li:nth-child(6) {
-	transition-delay: 0.006s;
-}
-.menu li:nth-child(7) {
-	transition-delay: 0.007s;
-}
 .menu li.show {
 	opacity: 1;
 	transform: translateX(0);
 }
 
-/* HERO SECTION ----------------------------------*/
-.main{
-    width: 100vw;
-    height: 100vh;
-    padding: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-}
-.main h1{
-    font-family: var(--ibm), 'monospace';
-    color: red;
-}
-
-.main p{
-    font-family: var(--ibm), 'monospace';
-}
+/* BACKGROUND VID ------------------------------*/
 video{
     z-index: -1;
     position: fixed;
