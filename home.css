@@ -21,6 +21,8 @@ main p{
     -webkit-backdrop-filter: blur(10px);
 }
 
+
+/* LATEST SETS -------------------------------*/
 #latest-sets-container{
     height: 70vh;
     width: 100vw;
@@ -36,8 +38,7 @@ main p{
 }
 
 
-
-/* SLIDESHOW ------------------*/
+/* SLIDESHOW ------------------------------------*/
 #container{
     display: flex;
     justify-content: center;
@@ -61,7 +62,7 @@ main p{
     transition: transform 0.3s ease;
 }
 
-.slide img {
+.slide iframe {
     width: 100%;
     display: block;
 }
@@ -90,7 +91,7 @@ main p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -110,19 +111,13 @@ svg:hover {
 }
 
 #prev {
-
 	background: none;
 	border: none;
 	transform: rotate(180deg);
-
 }
-
-
 #next {
-
 	background: none;
 	border: none;
-
 }
 
 
