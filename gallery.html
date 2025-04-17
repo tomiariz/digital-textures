@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
+    <!-- ICONS ---------------------------->
+
+        <!-- Filter Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=filter_list" />
+
     <!-- CSS ------------------------------->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="gallery.css">
@@ -63,7 +68,9 @@
     <div class="filter-bar-wrapper">
         <div class="filter-bar">
           <div class="filter-icon" id="filter-toggle">
-            <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="Filter" />
+            <span class="material-symbols-outlined">
+                filter_list
+            </span>
           </div>
           <div class="subcategories-container">
             <div class="subcategories" id="subcategory-list">
@@ -105,6 +112,6 @@
 
     <!-- SCRIPTS ---------------------------------->
     <script src="script.js"></script>
-    <script src="slideshow.js"></script>
+    <script src="./filter.js"></script>
 </body>
 </html>
