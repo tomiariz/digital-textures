@@ -17,14 +17,14 @@
 <body>
     <header id="header">
         
-        <div class="logo">
+        <div class="header__logo">
             <a href="./index.html">
                 <img src="./img/LOGO-GIF.gif" alt="3D-spinning-logo">
             </a>
         </div>
 
-        <div class="header-side-content">
-            <button class="button" id="menuButton">
+        <div class="header__side-content">
+            <button class="header__menu-button" id="menuButton">
                 +
             </button>
         </div>
@@ -32,13 +32,13 @@
 
     <!-- SIDE-MENU ------------------------->
     <nav class="menu" id="menu-container">
-        <ul class="unstyled">
-            <li><a href="index.html">
+        <ul class="menu__list">
+            <li><a href="./index.html">
                 HOME</a></li>
-            <li><a href="about.html">
+            <li><a href="./about.html">
                 ABOUT</a></li>
-            <li><a href="gallery.html">
-                SET GALLERY</a></li>
+                <li><a href="./gallery.html">
+                    SET GALLERY</a></li>
             <li><a href="">
                 SET SUBMISSION</a></li>
         </ul>
@@ -46,11 +46,10 @@
 
     <!-- BACKGROUND VIDEO ---------------------------->
     <div class="background-vid">
-        <video autoplay muted loop preload="auto" playsinline>
+        <video autoplay muted loop preload="auto">
             <source src="./vids/waves-demo0001-0120.mp4" type="video/mp4">
         </video>
     </div>
-
     <!-- HERO SECTION -------------------------------->
 
     <main>
@@ -59,29 +58,29 @@
 
     <!-- LATEST SETS -------------------------------->
 
-    <section id="latest-sets-container">
+    <section class="latest-sets">
         <h1>Latest Sets</h1>
 
-        <div id="container">
+        <div class="latest-sets__button-wrapper">
             <div class="buttons">
                 <button id="prev">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
                 </button>
             </div>
 
-                <div class="slider-container-about">
-                    <div class="slider-about" id="slider" data-slider-id="1">
+                <div class="latest-sets__slider-container">
+                    <div class="latest-sets__slider" id="slider" data-slider-id="1">
 
-                        <div class="slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/2c39An81gk8?si=vXppWT8n6sRJQkh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="latest-sets__slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/2c39An81gk8?si=vXppWT8n6sRJQkh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-                        <div class="slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/pRUsaJZYcDE?si=bE1jAVfhtw7WL0iL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="latest-sets__slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/pRUsaJZYcDE?si=bE1jAVfhtw7WL0iL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-                        <div class="slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/ylEw2pkC1Xo?si=Ffwd-GnCI1wXPJSF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="latest-sets__slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/ylEw2pkC1Xo?si=Ffwd-GnCI1wXPJSF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
                     <!-- Agrega más imágenes según necesites -->
                     </div>
-                    <div class="dots" id="dots" data-dots-id="1">
+                    <div class="latest-sets__dots" id="dots" data-dots-id="1">
                     </div>
                 </div>
 
@@ -94,22 +93,22 @@
     </section>
 
     <!-- BANNER -------------------------------------->
-    <section class="banner-container">
-        <div id="banner">
-            <div class="link-container">
-                <a href="" class="link-text">ARGENTINA</a>
-                <a href="" class="link-text">USA</a>
-                <a href="" class="link-text">GERMANY</a>
-                <a href="" class="link-text">JAPAN</a>
-                <a href="" class="link-text">ROMANIA</a>
-                <a href="" class="link-text">NETHERLANDS</a>
+    <section class="banner">
+        <div id="banner__content">
+            <div class="banner__links">
+                <a href="" class="banner__link">ARGENTINA</a>
+                <a href="" class="banner__link">USA</a>
+                <a href="" class="banner__link">GERMANY</a>
+                <a href="" class="banner__link">JAPAN</a>
+                <a href="" class="banner__link">ROMANIA</a>
+                <a href="" class="banner__link">NETHERLANDS</a>
 
-                <a href="" class="link-text">ARGENTINA</a>
-                <a href="" class="link-text">USA</a>
-                <a href="" class="link-text">GERMANY</a>
-                <a href="" class="link-text">JAPAN</a>
-                <a href="" class="link-text">ROMANIA</a>
-                <a href="" class="link-text">NETHERLANDS</a>
+                <a href="" class="banner__link">ARGENTINA</a>
+                <a href="" class="banner__link">USA</a>
+                <a href="" class="banner__link">GERMANY</a>
+                <a href="" class="banner__link">JAPAN</a>
+                <a href="" class="banner__link">ROMANIA</a>
+                <a href="" class="banner__link">NETHERLANDS</a>
 
             </div>
         </div>          

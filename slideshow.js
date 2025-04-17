@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const sliders = document.querySelectorAll('.slider-about');
+    const sliders = document.querySelectorAll('.latest-sets__slider');
     
     sliders.forEach((slider) => {
-        const slides = slider.querySelectorAll('.slide');
+        const slides = slider.querySelectorAll('.latest-sets__slide');
         const sliderId = slider.getAttribute('data-slider-id');
-        const dotsContainer = document.querySelector(`.dots[data-dots-id="${sliderId}"]`);
+        const dotsContainer = document.querySelector(`.latest-sets__dots[data-dots-id="${sliderId}"]`);
         
         let currentIndex = 0;
         const nextBtn = document.getElementById('next');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         function updateDots() {
-            dotsContainer.querySelectorAll(".dot").forEach((dot, index) => {
+            dotsContainer.querySelectorAll(".latest-sets__dot").forEach((dot, index) => {
                 dot.classList.toggle("active", index === currentIndex);
             });
         }
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Generar puntos dinámicamente
         slides.forEach((_, index) => {
             const dot = document.createElement("div");
-            dot.classList.add("dot");
+            dot.classList.add("latest-sets__dot");
             if (index === 0) dot.classList.add("active");
             dot.addEventListener("click", () => goToSlide(index));
             dotsContainer.appendChild(dot);

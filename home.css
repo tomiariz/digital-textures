@@ -23,14 +23,14 @@ main p{
 
 
 /* LATEST SETS -------------------------------*/
-#latest-sets-container{
+.latest-sets{
     height: 70vh;
     width: 100vw;
     background-color: var(--bg-black);
     padding: 20px;
 }
 
-#latest-sets-container h1{
+.latest-sets h1{
     font-family: var(--ibm);
     font-weight: bolder;
     font-size: 40px;
@@ -39,42 +39,42 @@ main p{
 
 
 /* SLIDESHOW ------------------------------------*/
-#container{
+.latest-sets__button-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-.slider-container-about {
+.latest-sets__slider-container {
     position: relative;
     width: 100%;
     max-width: 300px;
     overflow: hidden;
 }
-.slider-about {
+.latest-sets__slider {
     display: flex;
     transition: transform 0.3s ease;
 
 }
 
-.slide {
+.latest-sets__slide {
     min-width: 100%;
     transition: transform 0.3s ease;
 }
 
-.slide iframe {
+.latest-sets__slide iframe {
     width: 100%;
     display: block;
 }
 
-.dots {
+.latest-sets__dots {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
 }
 
-.dot {
+.latest-sets__dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -83,7 +83,7 @@ main p{
     cursor: pointer;
 }
 
-.dot.active {
+.latest-sets__dot.active {
     background-color: var(--txt-color);
 }
 
@@ -142,7 +142,7 @@ svg:hover {
 
 /* BANNER ----------------------------------------*/
 
-#banner {
+#banner__content {
     font-family: 'IBM Plex Mono', monospace;
     height: 40px;
     background-color: var(--bg-yellow);
@@ -153,13 +153,13 @@ svg:hover {
     overflow: hidden;
 }
 
-.link-container {
+.banner__links {
     display: flex;
     width: max-content;
     animation: scrollLinks 20s linear infinite;
 }
 
-.link-text {
+.banner__link {
     font-size: 40px;
     font-weight: bolder;
     color: var(--bg-black);
