@@ -139,3 +139,40 @@ svg:hover {
 		opacity: 1;
 	}
 }
+
+/* BANNER ----------------------------------------*/
+
+#banner {
+    font-family: 'IBM Plex Mono', monospace;
+    height: 40px;
+    background-color: yellow;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.link-container {
+    display: flex;
+    width: max-content;
+    animation: scrollLinks 20s linear infinite;
+}
+
+.link-text {
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--bg-color);
+    text-decoration: none;
+    margin: 0 20px; /* espacio entre palabras */
+    white-space: nowrap;
+}
+
+@keyframes scrollLinks {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
