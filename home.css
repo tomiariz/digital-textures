@@ -26,7 +26,7 @@ main p{
 #latest-sets-container{
     height: 70vh;
     width: 100vw;
-    background-color: black;
+    background-color: var(--bg-black);
     padding: 20px;
 }
 
@@ -145,7 +145,7 @@ svg:hover {
 #banner {
     font-family: 'IBM Plex Mono', monospace;
     height: 40px;
-    background-color: yellow;
+    background-color: var(--bg-yellow);
     position: sticky;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ svg:hover {
 .link-text {
     font-size: 40px;
     font-weight: bolder;
-    color: var(--bg-color);
+    color: var(--bg-black);
     text-decoration: none;
     margin: 0 20px; /* espacio entre palabras */
     white-space: nowrap;

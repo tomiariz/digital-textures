@@ -7,7 +7,7 @@
 .main h1{
     font-family: var(--ibm), 'monospace';
     font-size: 40px;
-    color: red;
+    color: var(--h1-color);
     margin-top: 40px;
     padding-left: 20px;
 }
@@ -23,7 +23,7 @@
     align-items: center;
     gap: 12px;
     padding: 10px 16px;
-    background-color: yellow;
+    background-color: var(--bg-yellow);
     overflow: hidden;
     white-space: nowrap;
 }
@@ -32,7 +32,7 @@
     width: 24px;
     height: 24px;
     cursor: pointer;
-    color: black;
+    color: var(--bg-black);
 }
 
 .subcategories-container {
@@ -54,7 +54,7 @@
 }
 
 .chip {
-    background-color: lightseagreen;
+    background-color: var(--bg-blu);
     border: none;
     padding: 8px 14px;
     cursor: pointer;
@@ -73,7 +73,7 @@
     position: absolute;
     top: 100%;
     left: 10px;
-    background: yellow;
+    background: var(--bg-yellow);
     padding: 10px;
     display: flex;
     gap: 10px;
@@ -86,7 +86,7 @@
 }
 
 .category-btn {
-    background-color: lightseagreen;
+    background-color: var(--bg-blu);
     border: none;
     padding: 8px 12px;
     cursor: pointer;
