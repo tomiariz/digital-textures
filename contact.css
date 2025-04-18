@@ -1,11 +1,8 @@
-*{
-    margin: 0;
-}
+
 
 
 
 body{
-    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(118, 64, 63, 1) 64%, rgba(132, 255, 0, 1) 100%);
     font-family: 'IBM Plex Mono';
     display: flex;
     flex-direction: column;
@@ -63,7 +60,9 @@ header{
 }
 
 .send-form_upload {
-    background-color: rgba(255,255,255,0.3);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,15 +107,3 @@ header{
         }
     }
 }*/
-
-footer{
-    img{
-        justify-content: center;
-    }
-    .footer-socials{
-        list-style: none;
-        justify-items: center;
-    }
-    background-color: black;
-    justify-content: center;
-}

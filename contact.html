@@ -29,13 +29,34 @@
         </div>
     </header>
 
-
+    <!-- SIDE-MENU ------------------------->
+    <nav class="menu" id="menu-container">
+        <ul class="menu__list">
+            <li><a href="./index.html">
+                HOME</a></li>
+            <li><a href="./about.html">
+                ABOUT</a></li>
+                <li><a href="./gallery.html">
+                    SET GALLERY</a></li>
+            <li><a href="">
+                SET SUBMISSION</a></li>
+        </ul>
+    </nav>
+    <!-- BACKGROUND VIDEO ---------------------------->
+    <div class="background-vid">
+        <video autoplay muted loop preload="auto">
+            <source src="./vids/waves-demo0001-0120.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- FORM ---------------------------->
     <div class="send-form">
     <h1>Send your set</h1>
     <input type="text" placeholder="name" class="send-form_name">
     <input type="mail" placeholder="e-mail" class="send-form_email">
     <input type="text" placeholder="message" class="send-form_message">
     </div>
+
+    <!-- UPLOAD FILE ---------------------------->
     <div class="send-form_upload">
         <a href="#">
 
@@ -45,34 +66,38 @@
         </a>
     </div>
 
-    <footer class="footer-socials">
+    <!-- FOOTER ---------------------------->
+    <footer>
 
-        <img src="resources/LOGO-GIF.gif" alt="rotationg logo gif" class="rotating-logo">        
-        <ul class="footer-socials">
-
+        <img src="./img/LOGO-GIF.gif" alt="3D-spinning-logo" class="footer__logo"> >        
+        <ul class="footer__socials">
+    
             <li>
-                <a href="#" class="footer-socials_links--Instagram">Instagram</a>
+                <a href="#">Instagram</a>
             </li>
             <li>
-                <a href="#" class="footer-socials_links--youtube">YouTube</a>
+                <a href="#">YouTube</a>
             </li>
             <li>
-                <a href="#" class="footer-socials_links--soundcloud">SoundCloud</a>
+                <a href="#">SoundCloud</a>
             </li>
             <li>
-                <a href="#"class="footer-socials_links--spotify">Spotify</a>
+                <a href="#">Spotify</a>
             </li>
             <li>
-                <a href="#"class="footer-socials_links--mail">Mail</a>
+                <a href="#">Mail</a>
             </li>
-
+    
         </ul>
-        <div class="footer-socials_credits">
+        <div class="footer__credits">
         <p>Made by</p>
         <p>Off-Pixel & Saigon Tourist</p>
         </div>
-
+    
     </footer>
+
+     <!-- SCRIPTS ---------------------------------->
+     <script src="script.js"></script>
     
 </body>
 </html>
