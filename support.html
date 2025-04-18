@@ -10,14 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <!-- ICONS ---------------------------->
-
-        <!-- Filter Icon -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=filter_list" />
-
     <!-- CSS ------------------------------->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="support.css">
 </head>
 <body>
     <header id="header">
@@ -58,53 +53,23 @@
         </video>
     </div>
 
-    <!-- SET GALLERY ------------->
+    <!-- SUPPORT THE PROJECT ---------------------->
 
-    <main class="main">
-        <div class="h1-container">
-            <h1>Sets Gallery</h1>
+    <section class="support">
+        <h1 class="support__title">
+            Support The Project
+        </h1>
+
+        <p class="support__text">
+            If you like this project and want to support it, you can do so by donating through the following platforms:
+        </p>
+
+        <!-- INSERT PAYPAL EMBED -->
+        <div class="support__paypal">
+            
         </div>
-    </main>
-
-    <!-- FILTERS ------------------>
-    <div class="filter-bar-wrapper">
-        <div class="filter-bar">
-          <div class="filter-icon" id="filter-toggle">
-            <span class="material-symbols-outlined">
-                filter_list
-            </span>
-          </div>
-          <div class="subcategories-container">
-            <div class="subcategories" id="subcategory-list">
-              <!-- Subcategorías iniciales: COUNTRIES -->
-              <button class="chip">ARGENTINA</button>
-              <button class="chip">USA</button>
-              <button class="chip">GERMANY</button>
-              <button class="chip">JAPAN</button>
-            </div>
-          </div>
+            
         </div>
-      
-        <!-- Catálogo de categorías (oculto por defecto) -->
-        <div class="category-menu hidden" id="category-menu">
-          <button class="category-btn" data-category="countries">COUNTRIES</button>
-          <button class="category-btn" data-category="genres">GENRES</button>
-        </div>
-      </div>
-      
-
-
-    <!-- GALLERY ------------------>
-
-    <section class="sets">
-        <div class="container-blog" style="position: relative;">
-            <!-- SETS -->
-            <a href="" class="blog-post" data-category="marketing">
-                <div class="article-cover">
-                    <img src="" alt="">
-                    <h2>See More</h2>
-                </div>
-            </a>
     </section>
 
 <!-- "INSERT FOOTER" ------------------------------->
@@ -113,7 +78,7 @@
 
 
     <!-- SCRIPTS ---------------------------------->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-    <script src="./filter.js"></script>
 </body>
 </html>
