@@ -4,57 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <title>contact</title>
 </head>
 <body>
 
     <header>
-        <img src="resources/LOGO-GIF.gif" alt="rotating logo gif" class="logo">
+        <img src="resources/LOGO-GIF.gif" alt="rotating logo gif" class="rotating-logo">
     </header>
-    <div class="send">
+
+
+    <div class="send-form">
     <h1>Send your set</h1>
-    <input type="text" placeholder="name">
-    <input type="mail" placeholder="e-mail">
-    <input type="text" placeholder="message" class="message">
+    <input type="text" placeholder="name" class="send-form_name">
+    <input type="mail" placeholder="e-mail" class="send-form_email">
+    <input type="text" placeholder="message" class="send-form_message">
     </div>
-    <div class="upload">
+    <div class="send-form_upload">
         <a href="#">
 
-            <img src="resources/upload.png" alt="upload icon green">
-            <input type="button" value="Upload file">
+            <img src="resources/upload.png" alt="upload icon green" class="send-form_upload--image">
+            <input type="button" value="Upload file" class="send-form_upload--button">
 
         </a>
     </div>
 
-    <footer>
+    <footer class="footer-socials">
 
-        <img src="resources/LOGO-GIF.gif" alt="rotationg logo gif" class="logo">        
-        <ul class="footer_socials">
+        <img src="resources/LOGO-GIF.gif" alt="rotationg logo gif" class="rotating-logo">        
+        <ul class="footer-socials">
 
             <li>
-                <a href="#">Instagram</a>
+                <a href="#" class="footer-socials_links--Instagram">Instagram</a>
             </li>
             <li>
-                <a href="#">YouTube</a>
+                <a href="#" class="footer-socials_links--youtube">YouTube</a>
             </li>
             <li>
-                <a href="#">SoundCloud</a>
+                <a href="#" class="footer-socials_links--soundcloud">SoundCloud</a>
             </li>
             <li>
-                <a href="#">Spotify</a>
+                <a href="#"class="footer-socials_links--spotify">Spotify</a>
             </li>
             <li>
-                <a href="#">Mail</a>
+                <a href="#"class="footer-socials_links--mail">Mail</a>
             </li>
 
         </ul>
-
+        <div class="footer-socials_credits">
         <p>Made by</p>
         <p>Off-Pixel & Saigon Tourist</p>
-
+        </div>
 
     </footer>
     
