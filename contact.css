@@ -1,65 +1,62 @@
-body{
-    font-family: 'IBM Plex Mono';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-    margin: 0;
-}
-
-
 .send-form{
-
     align-items: center;
-    margin: 250px 10px 20px;
-    width: 380px;
-    display: grid;
-    grid-template-columns: 1fr;
-
+    margin: 120px 0px 0px 0px;
+    width: 100vw;
+    
+    h1{
+        font-family: var(--ibm);
+        /* font-size: 30px; */
+        font-weight: 700;
+        color: var(--bg-red);
+        margin: 0px 0px 20px 20px;
+    }
     input{
+        height: 50px;
         padding-left: 5px;
+        margin: 10px 0px;
         color: white;
         background: transparent;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         margin-bottom: 5px;
-        font-family: 'IBM Plex Mono';
+        font-family: var(--ibm);
+        font-size: 20px;
         border-style: none;
         border-radius: 0%;
     }
     input::placeholder{
-        color: white;
+        color: var(--cred-color);
         padding-left: 5px;
     }
     textarea{
+        margin: 10px 0px;
         color: white;
         padding-left: 5px;
         background: transparent;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         margin-bottom: 5px;
-        font-family: 'IBM Plex Mono';
+        font-family: var(--ibm);
         border-style: none;
         border-radius: 0%;
     }
     textarea::placeholder{
-        color: rgba(255, 255, 255, 0.9);
+        color: var(--cred-color);
         padding-left: 5px;
     }
-    
-    h1{
-        font-weight: 400;
-        color: red;
-    }
-    .send-form_message{
-        
+    .send-form__message{
         height: 90px;
     }
-    
 }
 
+.send-form__container{
+    margin: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
 
-.send-form_upload {
+.send-form__upload {
     background: transparent;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -71,6 +68,9 @@ body{
     height: 200px;
     margin: 20px auto 50px;
     
+    img{
+        width: 75px;
+    }
     a {
         /* Hacer que el enlace ocupe todo el espacio si es necesario */
         width: 100%;
@@ -81,11 +81,14 @@ body{
         align-items: center;
         
         input {
-            margin-top: 10px;
-            padding:5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            font-size: 20px;
+            padding: 15px;
             color: white;
-            background-color: rgb(0, 128, 255);
+            background-color: rgb(0, 120, 255);
         }
     }
 }
-/* A VER SI ME COMMITEAS ESTA */
