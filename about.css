@@ -6,14 +6,14 @@
     position: relative;
     box-sizing: border-box;
 }
-.about h1{
+.about__title{
     font-family: var(--ibm), 'monospace';
     font-size: 40px;
     color: var(--h1-color);
     margin-top: 40px;
     padding-left: 20px;
 }
-.about p{
+.about__description {
     font-family: var(--ibm), 'monospace';
     font-weight: 600;
     font-size: 18px;
