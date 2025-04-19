@@ -30,6 +30,9 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+a{
+	text-decoration: none;
+}
 
 
 /* GLOBAL VARIABLES -------------------------------- */
@@ -197,20 +200,28 @@ video{
 }
 
 /* FOOTER --------------------------------------*/
-footer{
+footer .footer__container{
+	background-color: var(--bg-black);
+    justify-content: center;
 
-	.footer__logo{
-		width: 150px;
+	.footer__container--logo{
+		padding-top: 40px;
+		display:flex;
 		justify-content: center;
-
+		margin: auto auto 30px;
+		img{
+			width: 150px;
+		}
 	}
-    img{
-        justify-content: center;
-    }
-    .footer__socials{
+    
+    .footer__container--socials{
         list-style: none;
         justify-items: center;
+		
+    	a{
+			text-decoration: none;
+			color: var(--txt-color);
+		}
     }
-    background-color: black;
-    justify-content: center;
+    
 }
