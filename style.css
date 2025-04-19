@@ -14,7 +14,9 @@ body{
     height: 100%;
     overflow-x: hidden;
 }
-/* HEADER ------------------------*/
+
+/* HEADER -------------------------------- */
+
 header {
 	box-sizing: border-box;
 	display: flex;
@@ -30,6 +32,9 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+a{
+	text-decoration: none;
+}
 
 
 /* GLOBAL VARIABLES -------------------------------- */
@@ -41,6 +46,7 @@ header {
 	--bg-yellow: yellow;
 	--bg-blu: lightseagreen;
     --ibm: "IBM Plex Mono", monospace;
+	--cred-color: rgba(177, 177, 177, 0.941);
 }
 
 
@@ -194,4 +200,41 @@ video{
     height: 100%;
     object-fit: cover;
 	pointer-events: none;
+}
+
+/* FOOTER --------------------------------------*/
+footer .footer__container{
+	background-color: var(--bg-black);
+    justify-content: center;
+
+	.footer__container--logo{
+		padding-top: 40px;
+		display:flex;
+		justify-content: center;
+		margin: auto auto 30px;
+		img{
+			width: 150px;
+		}
+	}
+    
+    .footer__container--socials{
+        list-style: none;
+        justify-items: center;
+		
+    	a{
+			text-decoration: none;
+			color: var(--txt-color);
+		}
+    }
+	.footer__container--credits{
+		font-size: x-small;
+		margin-top: 40px;
+		padding-bottom: 20px;
+		justify-items:center;
+		color: var(--cred-color);
+		a{
+			color: var(--cred-color);
+		}
+	}
+    
 }
