@@ -35,7 +35,9 @@ header {
 a{
 	text-decoration: none;
 }
-
+h1{
+	color: var(--h1-color);
+}
 
 /* GLOBAL VARIABLES -------------------------------- */
 
@@ -204,6 +206,7 @@ video{
 
 /* FOOTER --------------------------------------*/
 footer .footer__container{
+	
 	font-family: var(--ibm);
 	background-color: var(--bg-black);
     justify-content: center;
@@ -219,10 +222,14 @@ footer .footer__container{
 	}
     
     .footer__container--socials{
-        list-style: none;
+		li{
+			margin-bottom: 20px;
+		}
+		list-style: none;
         justify-items: center;
 		
     	a{
+			
 			text-decoration: none;
 			color: var(--txt-color);
 		}
