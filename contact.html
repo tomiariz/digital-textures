@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="contact.css">
 
     <!-- TITLE ---------------------------->
-    <title>Digital Textures</title>
+    <title>Digital Textures - CONTACT</title>
 
 </head>
 <body>
@@ -26,6 +26,11 @@
             <a href="./index.html">
                 <img src="./img/LOGO-GIF.gif" alt="3D-spinning-logo">
             </a>
+        </div>
+        <div class="header__side-content">
+            <button class="header__menu-button" id="menuButton">
+                +
+            </button>
         </div>
     </header>
 
@@ -50,54 +55,64 @@
     </div>
     <!-- FORM ---------------------------->
     <div class="send-form">
-    <h1>Send your set</h1>
-    <input type="text" placeholder="name" class="send-form_name">
-    <input type="mail" placeholder="e-mail" class="send-form_email">
-    <input type="text" placeholder="message" class="send-form_message">
+        <h1>Send your set</h1>
+        <input type="text" placeholder="name" class="send-form_name">
+        <input type="mail" placeholder="e-mail" class="send-form_email">
+        <!-- <input type="text" placeholder="message" class="send-form_message"> -->
+        <textarea name="" id="" cols="30" rows="10" placeholder="message" class="send-form_message">
+        </textarea>
+        
+
+        <!-- UPLOAD FILE ---------------------------->
+        <div class="send-form_upload">
+            <a href="#">
+
+                <img src="resources/upload.png" alt="upload icon green" class="send-form_upload--image">
+                <input type="button" value="Upload file" class="send-form_upload--button">
+
+            </a>
+        </div>
     </div>
-
-    <!-- UPLOAD FILE ---------------------------->
-    <div class="send-form_upload">
-        <a href="#">
-
-            <img src="resources/upload.png" alt="upload icon green" class="send-form_upload--image">
-            <input type="button" value="Upload file" class="send-form_upload--button">
-
-        </a>
-    </div>
-
     <!-- FOOTER ---------------------------->
-    <footer>
 
-        <img src="./img/LOGO-GIF.gif" alt="3D-spinning-logo" class="footer__logo"> >        
-        <ul class="footer__socials">
-    
-            <li>
-                <a href="#">Instagram</a>
-            </li>
-            <li>
-                <a href="#">YouTube</a>
-            </li>
-            <li>
-                <a href="#">SoundCloud</a>
-            </li>
-            <li>
-                <a href="#">Spotify</a>
-            </li>
-            <li>
-                <a href="#">Mail</a>
-            </li>
-    
-        </ul>
-        <div class="footer__credits">
-        <p>Made by</p>
-        <p>Off-Pixel & Saigon Tourist</p>
+
+    <footer>
+        <div class="footer__container">
+                <div class="footer__container--logo">
+                    <img src="./img/LOGO-GIF.gif" alt="3D-spinning-logo" > 
+                </div>    
+            <ul class="footer__container--socials">
+        
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <a href="#">YouTube</a>
+                </li>
+                <li>
+                    <a href="#">SoundCloud</a>
+                </li>
+                <li>
+                    <a href="#">Spotify</a>
+                </li>
+                <li>
+                    <a href="#">Mail</a>
+                </li>
+        
+            </ul>
+            <div class="footer__container--credits">
+            <p>Made by</p>
+            <a href="#">Off-Pixel</a> <p> & </p> <a href="#">Saigon Tourist</a>
+            </div>
         </div>
     
     </footer>
 
-    <!-- SCRIPTS ---------------------------------->
-    <script src="script.js"></script>
+    
+<!-- SCRIPTS ---------------------------------->
+<script src="script.js"></script>
+
+<!--A VER SI ME DEJAS COMMITEAR-->
     
 </body>
 </html>
