@@ -204,6 +204,7 @@ video{
 
 /* FOOTER --------------------------------------*/
 footer .footer__container{
+	font-family: var(--ibm);
 	background-color: var(--bg-black);
     justify-content: center;
 
