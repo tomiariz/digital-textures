@@ -153,6 +153,10 @@ svg:hover {
     overflow: hidden;
 }
 
+.banner{
+    margin-bottom: -80px;
+}
+
 .banner__links {
     display: flex;
     width: max-content;
