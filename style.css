@@ -47,7 +47,7 @@ h1{
 	--bg-black: black;
 	--bg-yellow: yellow;
 	--bg-blu: lightseagreen;
-    --ibm: "IBM Plex Mono", monospace;
+    --ibm: "IBM Plex Mono", 'monospace';
 	--cred-color: rgba(177, 177, 177, 0.941);
 }
 
