@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <a href="${set.link}" class="set-post" data-country="${set.country}" data-genre="${set.genre}">
                         <div class="set-cover">
                             <img src="${set.image}" alt="${set.dj} cover">
+                            <p class="see-more">See More</p>
                         </div>
                     </a>
                 `;
