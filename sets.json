@@ -1,0 +1,30 @@
+[
+    {
+        "dj": "Secret Locations Fiji",
+        "link": "",
+        "image": "./img/covers/DTX-Flyer-004_resultado.webp",
+        "country": "Fiji",
+        "genre": "progressive"
+    },
+    {
+        "dj": "JulietEko",
+        "link": "./sets/dj-pulse-techno.html",
+        "image": "./img/covers/DTX-Flyer-003_resultado.webp",
+        "country": "argentina",
+        "genre": "progressive"
+    },
+    {
+        "dj": "ARiZ",
+        "link": "./sets/dj-pulse-techno.html",
+        "image": "./img/covers/DTX-Flyer-002-01_resultado.webp",
+        "country": "argentina",
+        "genre": "house"
+    },
+    {
+        "dj": "J.C.V.",
+        "link": "./sets/dj-pulse-techno.html",
+        "image": "./img/covers/DTX-Flyer-DEMO-001_resultado.webp",
+        "country": "argentina",
+        "genre": "progressive"
+    }
+]
