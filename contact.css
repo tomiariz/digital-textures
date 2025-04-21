@@ -21,7 +21,7 @@
         height: 50px;
         padding-left: 5px;
         /* margin: 10px 0px; */
-        color: white;
+        color: var(--input-color);
         background: transparent;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -91,15 +91,17 @@
         justify-content: space-between;
         align-items: center;
 
-        input {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 40px;
-            font-size: 20px;
-            padding: 15px;
-            color: white;
-            background-color: rgb(0, 120, 255);
-        }
+        
+    }
+    .send-form__upload--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: var(--input-color);
+        background-color: var(--button-bg);
     }
 }
