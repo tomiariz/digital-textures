@@ -2,21 +2,23 @@
     --placehoder-color: rgba(255, 255, 255, 0.7);
     --input-color: white;
     --button-bg: rgb(0, 128, 255);
+    --txt-red: red;
 
 }
 
-.send-form{
+.send--form{
     align-items: center;
     margin: 120px 0px 0px 0px;
     width: 100vw;
-    
+
     h1{
         font-family: var(--ibm);
         /* font-size: 30px; */
-        font-weight: 700;
-        color: var(--bg-red);
+        /* font-weight: 900; */
+        color: var(--txt-red);
         margin: 0px 0px 20px 20px;
     }
+
     input{
         height: 50px;
         padding-left: 5px;
@@ -46,18 +48,15 @@
         font-family: var(--ibm);
         border-style: none;
         border-radius: 0%;
+        font-size: 20px;
     }
     textarea::placeholder{
         color: var(--placehoder-color);
         padding-left: 5px;
     }
-    
-    h1{
-        font-weight: 400;
-        color: red;
-    }
+
     .send-form_message{
-        
+
         height: 90px;
     }
 }
@@ -81,7 +80,7 @@
     width: 200px;
     height: 200px;
     margin: 20px auto 50px;
-    
+
     img{
         width: 75px;
     }
@@ -93,7 +92,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        
+
         input {
             display: flex;
             justify-content: center;
