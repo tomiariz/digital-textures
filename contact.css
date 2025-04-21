@@ -3,10 +3,15 @@
     --input-color: white;
     --button-bg: rgb(0, 128, 255);
     --txt-red: red;
+    --txt-color: rgb(0, 255, 0);
+    --ibm: "IBM Plex Mono", 'monospace';
+    --snd-btn: black;
 
 }
-
-.send--form{
+body{
+    font-family: var(--ibm);
+}
+.send-form{
     align-items: center;
     margin: 120px 0px 0px 0px;
     width: 100vw;
@@ -105,4 +110,47 @@
         color: var(--input-color);
         background-color: var(--button-bg);
     }
+    
 }
+/* .send-form__send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        display: inline; 
+        width: auto;     
+        max-width: max-content; 
+        display:inline;
+        margin-bottom: 30px;
+        font-size: 40px;
+        text-decoration: none;
+        color: var(--txt-color);
+    }
+}
+.send-form__send:hover{
+    a{
+        color:var(--snd-btn);
+        text-decoration: underline;
+    }
+} */
+.send-form__send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    a {
+      display: inline;
+      width: auto;
+      max-width: max-content;
+      margin-bottom: 30px;
+      font-size: 40px;
+      text-decoration: none;
+      color: var(--txt-color);
+  
+      &:hover {
+        color: var(--snd-btn);
+        text-decoration: underline;
+      }
+    }
+}
+  

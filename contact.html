@@ -52,13 +52,13 @@
 
     <!-- BACKGROUND VIDEO ---------------------------->
     <div class="background-vid">
-        <video autoplay muted loop preload="auto">
+        <video autoplay muted loop preload="auto" playsinline>
             <source src="./vids/waves-demo0001-0120.mp4" type="video/mp4">
         </video>
     </div>
     <!-- FORM ---------------------------->
     
-    <div class="send--form">
+    <div class="send-form">
         <h1>Send Your Set</h1>
         <div class="send-form__container">
             <input type="text" placeholder="name: ex. Jane Doe" class="send-form__name">
@@ -72,6 +72,9 @@
                     <img src="resources/upload.png" alt="upload icon green" class="send-form_upload--image">
                     <input type="button" value="Upload file" class="send-form__upload--button">
                 </a>
+            </div>
+            <div class="send-form__send">
+            <a href="#">send</a>
             </div>
         </div>
         
