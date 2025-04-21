@@ -4,27 +4,47 @@
         "link": "",
         "image": "./img/covers/DTX-Flyer-004_resultado.webp",
         "country": "Fiji",
-        "genre": "progressive"
+        "genre": "progressive",
+        "title": "Techno Pulse Set",
+        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
+        "duration": "1h 30m",
+        "release_date": "2025-04-15"
     },
     {
         "dj": "JulietEko",
         "link": "./sets/dj-pulse-techno.html",
         "image": "./img/covers/DTX-Flyer-003_resultado.webp",
         "country": "argentina",
-        "genre": "progressive"
+        "genre": "progressive",
+        "title": "Techno Pulse Set",
+        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
+        "duration": "1h 30m",
+        "release_date": "2025-04-15"
     },
     {
         "dj": "ARiZ",
         "link": "./sets/dj-pulse-techno.html",
         "image": "./img/covers/DTX-Flyer-002-01_resultado.webp",
         "country": "argentina",
-        "genre": "house"
+        "genre": "house",
+        "title": "Techno Pulse Set",
+        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
+        "duration": "1h 30m",
+        "release_date": "2025-04-15"
     },
     {
         "dj": "J.C.V.",
         "link": "./sets/dj-pulse-techno.html",
         "image": "./img/covers/DTX-Flyer-DEMO-001_resultado.webp",
         "country": "argentina",
-        "genre": "progressive"
+        "genre": "progressive",
+        "title": "Techno Pulse Set",
+        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
+        "duration": "1h 30m",
+        "release_date": "2025-04-15"
     }
 ]
