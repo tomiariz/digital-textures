@@ -13,7 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             document.getElementById("set-title").textContent = `${set.title} by ${set.dj}`;
-            document.getElementById("set-description").textContent = set.description;
+            document.getElementById("set-img").src = set.image;
+            document.getElementById("set-img").alt = `${set.title} cover`;            
+            document.getElementById("set-description").innerHTML = set.description;
 
             document.getElementById("youtube-container").innerHTML = set.youtube;
             document.getElementById("soundcloud-container").innerHTML = set.soundcloud;
