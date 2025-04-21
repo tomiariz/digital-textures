@@ -35,7 +35,9 @@ header {
 a{
 	text-decoration: none;
 }
+
 h1{
+	font-family: var(--ibm);
 	color: var(--h1-color);
 }
 
@@ -217,7 +219,8 @@ main {
 }
 /* FOOTER --------------------------------------*/
 footer .footer__container{
-	
+	display: flex;
+	flex-direction: column;
 	font-family: var(--ibm);
 	background-color: var(--bg-black);
     justify-content: center;
@@ -234,11 +237,17 @@ footer .footer__container{
 	}
     
     .footer__container--socials{
+		display: flex;
+		flex-direction: column;
+		
+		list-style: none;
+        justify-content: center;
+		align-items: center;
+
 		li{
 			margin-bottom: 20px;
 		}
-		list-style: none;
-        justify-items: center;
+		
 		
     	a{
 			text-decoration: none;
