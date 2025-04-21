@@ -69,42 +69,37 @@
     <!-- FILTERS ------------------>
     <div class="filter-bar-wrapper">
         <div class="filter-bar">
-          <div class="filter-icon" id="filter-toggle">
-            <span class="material-symbols-outlined">
-                filter_list
-            </span>
-          </div>
-          <div class="subcategories-container">
-            <div class="subcategories" id="subcategory-list">
-              <!-- Subcategorías iniciales: COUNTRIES -->
-              <button class="chip">ARGENTINA</button>
-              <button class="chip">USA</button>
-              <button class="chip">GERMANY</button>
-              <button class="chip">JAPAN</button>
+            <div class="filter-icon" id="filter-toggle">
+                <span class="material-symbols-outlined">
+                    filter_list
+                </span>
             </div>
-          </div>
-        </div>
-      
+            <div class="subcategories-container">
+                <div class="subcategories" id="subcategory-list">
+                <!-- Subcategorías iniciales: COUNTRIES -->
+                <button class="chip" data-value="all">ALL</button>
+                <button class="chip" data-value="argentina">ARGENTINA</button>
+                <button class="chip" data-value="usa">USA</button>
+                <button class="chip" data-value="germany">GERMANY</button>
+                <button class="chip" data-value="japan">JAPAN</button>
+                <button class="chip" data-value="fiji">FIJI</button>
+                </div>
+            </div>
+            </div>
+
         <!-- Catálogo de categorías (oculto por defecto) -->
         <div class="category-menu hidden" id="category-menu">
-          <button class="category-btn" data-category="countries">COUNTRIES</button>
-          <button class="category-btn" data-category="genres">GENRES</button>
+            <button class="category-btn" data-category="country">COUNTRIES</button>
+            <button class="category-btn" data-category="genre">GENRES</button>
+            </div>
         </div>
-      </div>
-      
-
 
     <!-- GALLERY ------------------>
 
     <section class="sets">
-        <div class="container-blog" style="position: relative;">
+        <div class="gallery-container">
             <!-- SETS -->
-            <a href="" class="blog-post" data-category="marketing">
-                <div class="article-cover">
-                    <img src="" alt="">
-                    <h2>See More</h2>
-                </div>
-            </a>
+        </div>
     </section>
 
 <!-- FOOTER ------------------------------->
@@ -148,7 +143,8 @@
 
 
     <!-- SCRIPTS ---------------------------------->
-    <script src="script.js"></script>
     <script src="./filter.js"></script>
+    <script src="./sets.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

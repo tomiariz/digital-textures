@@ -205,7 +205,18 @@ video{
     object-fit: cover;
 	pointer-events: none;
 }
-
+.wrapper{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+main {
+    padding-top: 80px; /* Space for fixed header */
+    padding-bottom: 150px; /* Space for footer to prevent overlap */
+	flex: 1;
+    width: 100%;
+    z-index: 1;
+}
 /* FOOTER --------------------------------------*/
 footer .footer__container{
 	display: flex;
@@ -213,10 +224,11 @@ footer .footer__container{
 	font-family: var(--ibm);
 	background-color: var(--bg-black);
     justify-content: center;
+	width: 100%;
 
 	.footer__container--logo{
 		padding-top: 40px;
-		display:flex;
+		display: flex;
 		justify-content: center;
 		margin: auto auto 30px;
 		img{
@@ -238,7 +250,6 @@ footer .footer__container{
 		
 		
     	a{
-			
 			text-decoration: none;
 			color: var(--txt-color);
 		}
@@ -253,5 +264,4 @@ footer .footer__container{
 			color: var(--cred-color);
 		}
 	}
-    
 }
