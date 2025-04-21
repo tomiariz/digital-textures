@@ -56,21 +56,15 @@
     <div class="wrapper">
         <main class="set">
             <div class="set__title">
-                <h1>Overture by J.C.V.</h1>
+                <h1 id="set-title"></h1>
             </div>
             <div class="set__description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fuga culpa, quam hic id laudantium consequuntur minus aliquam deleniti asperiores libero quas temporibus quis? At incidunt sunt temporibus aut consequatur.</p>
+                <p id="set-description"></p>
             </div>
             <!-- EMBEDS ------------->
-            <div class="youtube">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/bOMO6odUIIg?si=QF82X_8iztH2ybvF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="soundcloud">
-                <iframe width="100%" height="315" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2036846545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/digital-textures" title="Digital Textures" target="_blank" style="color: #cccccc; text-decoration: none;">Digital Textures</a> · <a href="https://soundcloud.com/digital-textures/dtx001-jcv-feb-17-2025" title="DTX.001  |  J.C.V.  | Progressive House  |  FEB 17, 2025." target="_blank" style="color: #cccccc; text-decoration: none;">DTX.001  |  J.C.V.  | Progressive House  |  FEB 17, 2025.</a></div>
-            </div>
-            <div class="spotify">
-                <iframe src="https://open.spotify.com/embed/playlist/1GxeD23W5rc1QZX8Ey9lf5?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div>
+            <div class="youtube" id="youtube-container"></div>
+            <div class="soundcloud" id="soundcloud-container"></div>
+            <div class="spotify" id="spotify-container"></div>
         </main>
         <!-- FOOTER ------------------------------->
         <footer>
@@ -110,5 +104,6 @@
 
     <!-- SCRIPTS ---------------------------------->
     <script src="script.js"></script>
+    <script src="./set.js"></script>
 </body>
 </html>

@@ -1,50 +1,66 @@
 [
     {
+        "id": "dtx004",
         "dj": "Secret Locations Fiji",
-        "link": "",
+        "link": "./set.html?id=dtx004",
         "image": "./img/covers/DTX-Flyer-004_resultado.webp",
-        "country": "Fiji",
+        "country": "fiji",
         "genre": "progressive",
-        "title": "Techno Pulse Set",
-        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "title": "Fiji Waves",
+        "description": "A progressive set inspired by the serene beaches of Fiji.",
         "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
         "duration": "1h 30m",
-        "release_date": "2025-04-15"
+        "release_date": "2025-04-15",
+        "youtube": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/placeholder\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "soundcloud": "<iframe width=\"100%\" height=\"315\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/placeholder\"></iframe>",
+        "spotify": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/placeholder\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
     },
     {
+        "id": "dtx003",
         "dj": "JulietEko",
-        "link": "./sets/dj-pulse-techno.html",
+        "link": "./set.html?id=dtx003",
         "image": "./img/covers/DTX-Flyer-003_resultado.webp",
         "country": "argentina",
         "genre": "progressive",
-        "title": "Techno Pulse Set",
-        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "title": "Buenos Aires Nights",
+        "description": "A vibrant progressive set capturing the energy of Buenos Aires.",
         "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
         "duration": "1h 30m",
-        "release_date": "2025-04-15"
+        "release_date": "2025-04-15",
+        "youtube": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/placeholder\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "soundcloud": "<iframe width=\"100%\" height=\"315\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/placeholder\"></iframe>",
+        "spotify": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/placeholder\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
     },
     {
+        "id": "dtx002",
         "dj": "ARiZ",
-        "link": "./sets/dj-pulse-techno.html",
+        "link": "./set.html?id=dtx002",
         "image": "./img/covers/DTX-Flyer-002-01_resultado.webp",
         "country": "argentina",
         "genre": "house",
-        "title": "Techno Pulse Set",
-        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "title": "House Vibes",
+        "description": "An uplifting house set perfect for late-night vibes.",
         "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
         "duration": "1h 30m",
-        "release_date": "2025-04-15"
+        "release_date": "2025-04-15",
+        "youtube": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/placeholder\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "soundcloud": "<iframe width=\"100%\" height=\"315\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/placeholder\"></iframe>",
+        "spotify": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/placeholder\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
     },
     {
+        "id": "dtx001",
         "dj": "J.C.V.",
-        "link": "./sets/dj-pulse-techno.html",
+        "link": "./set.html?id=dtx001",
         "image": "./img/covers/DTX-Flyer-DEMO-001_resultado.webp",
         "country": "argentina",
         "genre": "progressive",
-        "title": "Techno Pulse Set",
-        "description": "A high-energy techno set recorded live in Buenos Aires.",
+        "title": "Overture by J.C.V.",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fuga culpa, quam hic id laudantium consequuntur minus aliquam deleniti asperiores libero quas temporibus quis? At incidunt sunt temporibus aut consequatur.",
         "tracklist": ["Track 1: Intro", "Track 2: Pulse Beat", "Track 3: Night Drive"],
         "duration": "1h 30m",
-        "release_date": "2025-04-15"
+        "release_date": "2025-04-15",
+        "youtube": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/bOMO6odUIIg?si=QF82X_8iztH2ybvF\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "soundcloud": "<iframe width=\"100%\" height=\"315\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2036846545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe>",
+        "spotify": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/1GxeD23W5rc1QZX8Ey9lf5?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
     }
 ]
