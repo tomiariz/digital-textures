@@ -17,6 +17,8 @@ main p{
     -1px  1px 0 black,
     1px  1px 0 black;
     text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -24,10 +26,9 @@ main p{
 
 /* LATEST SETS -------------------------------*/
 .latest-sets{
-    height: 70vh;
     width: 100vw;
     background-color: var(--bg-black);
-    padding: 20px;
+    padding: 20px 0px 40px 0px;
 }
 
 .latest-sets h1{
@@ -35,26 +36,28 @@ main p{
     font-weight: bolder;
     font-size: 40px;
     color: var(--h1-color);
+    padding-left: 20px;
 }
 
 
 /* SLIDESHOW ------------------------------------*/
 .latest-sets__button-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Esto separa los botones */
     align-items: center;
     margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .latest-sets__slider-container {
     position: relative;
     width: 100%;
-    max-width: 300px;
     overflow: hidden;
 }
 .latest-sets__slider {
     display: flex;
     transition: transform 0.3s ease;
-
 }
 
 .latest-sets__slide {
@@ -62,9 +65,21 @@ main p{
     transition: transform 0.3s ease;
 }
 
-.latest-sets__slide iframe {
+.iframe-wrapper {
+    position: relative;
     width: 100%;
-    display: block;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.iframe-wrapper iframe {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
 }
 
 .latest-sets__dots {
@@ -91,7 +106,10 @@ main p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-top: 30px; */
+    /* max-width: 800px; */
+    /* position: relative; */
+    /* margin: 0 auto; */
+    /* width: 100%; */
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -178,5 +196,28 @@ svg:hover {
     }
     to {
         transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .iframe-wrapper{
+        aspect-ratio: 1 / 1;
+    }
+    .iframe-wrapper iframe {
+        aspect-ratio: 1 / 1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .iframe-wrapper {
+        display: flex;
+        padding: 10px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .iframe-wrapper iframe{
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
     }
 }

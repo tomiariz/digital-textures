@@ -90,7 +90,7 @@
     border: none;
     padding: 8px 12px;
     cursor: pointer;
-    font-family: var(--ibm), 'monospace';
+    font-family: var(--ibm);
     font-weight: 600;
     font-size: 14px;
 }
@@ -150,4 +150,15 @@
     right: 15px;
     margin-bottom: 5px;
     z-index: 3;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .gallery-container{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery-container{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
