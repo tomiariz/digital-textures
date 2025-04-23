@@ -17,25 +17,13 @@
     font-weight: 600;
     font-size: 18px;
     text-indent: 20px;
-    margin: 15px 20px auto;
+    margin: 15px 20px 20px auto;
     padding: 60px 20px 0px 20px;
     height: 60vh;
     background-color: var(--bg-yellow);
 }
 
 @media screen and (min-width: 1024px) {
-    .support{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-        "support1 footer"
-        "support2 footer";
-    }
-    .support__title{
-        grid-area: support1;
-    }
-    .support__text{
-        grid-area: support2;
-    }
+
     
 }
